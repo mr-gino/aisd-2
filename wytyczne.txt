@@ -1,0 +1,7 @@
+getFirst
+insertFirst
+find
+deleteFirst
+delete
+//iterator
+print

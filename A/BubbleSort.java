@@ -12,6 +12,7 @@ public class BubbleSort {
         for (int i = 0; i < N; i++) {
             System.out.print(myTab[i] + " ");
         }
+        System.out.println();
     }
 
     public static void bubbleSort(){
@@ -32,10 +33,16 @@ public class BubbleSort {
 
     public static void main(String[] args) {
         myTab = new int[N];
-        Random rand = new Random();
-        for (int i = 0; i < N; i++) {
-            myTab[i] = rand.nextInt(100);
-        }
+        myTab[0] = 5;
+        myTab[1] = 6;
+        myTab[2] = 3;
+        myTab[3] = 2;
+        myTab[4] = 8;
+        myTab[5] = -4;
+        myTab[6] = -9;
+        myTab[7] = 9;
+        myTab[8] = 0;
+        myTab[9] = 1;
 
         System.out.println("Tablica przed sortowaniem:");
         print();
